@@ -7,6 +7,11 @@ function sommaValore() {
     var primo = parseFloat(primoNumero.value);
     var secondo = parseFloat(secondoNumero.value);
     var somma = primo + secondo;
-  
+    var sottrazione = primo - secondo;
+    var moltiplicazione = primo * secondo;
+    var divisione = primo / secondo;
     document.getElementById('somma').value = somma;
+    document.getElementById('sottrazione').value = sottrazione;
+    document.getElementById('moltiplicazione').value = moltiplicazione;
+    document.getElementById('divisione').value = divisione;
   }
